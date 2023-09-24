@@ -33,6 +33,7 @@ export default function Details() {
   
       <div class="card">
       <div class="card-body">
+    <p class="card-title"><span className='align'>Character:</span>{state?.name}</p>
       <p class="card-text"><span className='align'>Name:</span>{state?.name}</p>
       <p class="card-text"><span className='align'>WikiUrl:</span>{state?.wikiUrl}</p>
       <p class="card-text"><span className='align'>Race:</span>{state?.race}</p>
